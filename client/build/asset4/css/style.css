@@ -1,0 +1,121 @@
+.Dashboard_Referrals_Header {
+  /* font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  background-color: #FDFDFE;
+  /* background-color: red; */
+  
+  /* color: rgba(255, 255, 255, 0.5); */
+  color: black;
+  line-height: 2;
+  /* border: 20px solid greenyellow; */
+  padding-top: 4%;
+  
+}
+
+.Dashboard_Referrals_Header h1, h2, h3, h4, h5, h6,
+.Dashboard_Referrals_Header .h1,.Dashboard_Referrals_Header  .h2,.Dashboard_Referrals_Header  .h3,.Dashboard_Referrals_Header  .h4,.Dashboard_Referrals_Header  .h5,.Dashboard_Referrals_Header  .h6 {
+  font-family: "Poppins", sans-serif;
+  color: #000; }
+
+  .Dashboard_Referrals_Header a {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease; }
+  .Dashboard_Referrals_Header a,.Dashboard_Referrals_Header  a:hover {
+    text-decoration: none !important; }
+
+    .Dashboard_Referrals_Header .text-black {
+  color: #000; }
+
+  .Dashboard_Referrals_Header .content {
+  padding: 7rem 0; }
+
+  .Dashboard_Referrals_Header h2 {
+  font-size: 3.5rem;
+  font-weight: 700; }
+
+  .Dashboard_Referrals_Header h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  /* color: #fff; */
+  color: black;
+ }
+
+  .Dashboard_Referrals_Header .form-control {
+  border: none;
+  border: 1px solid #ccc;
+  border-radius: 4px; }
+  .Dashboard_Referrals_Header .form-control:active,.Dashboard_Referrals_Header  .form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: #000; }
+
+    .Dashboard_Referrals_Header .col-form-label {
+  color: #000; }
+
+  .Dashboard_Referrals_Header .btn,.Dashboard_Referrals_Header  .form-control,.Dashboard_Referrals_Header  .custom-select {
+  height: 50px; }
+
+  .Dashboard_Referrals_Header .custom-select:active,.Dashboard_Referrals_Header  .custom-select:focus {
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border-color: #000; }
+
+  .Dashboard_Referrals_Header .heading {
+  color: #888;
+  letter-spacing: .05rem;
+  text-transform: uppercase;
+  font-weight: 400; }
+
+  .Dashboard_Referrals_Header .btn {
+  color: #fff;
+  border: none;
+  border-radius: 4px !important;
+  -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1) !important; }
+  .Dashboard_Referrals_Header .btn:hover {
+    color: #fff; }
+    .Dashboard_Referrals_Header .btn:active,.Dashboard_Referrals_Header  .btn:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+    .Dashboard_Referrals_Header .box {
+  padding: 40px;
+  background: #fff;
+  -webkit-box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: -30px 30px 0px 0 rgba(0, 0, 0, 0.08); }
+  .Dashboard_Referrals_Header   .box h3 {
+    font-size: 14px;
+    margin-bottom: 30px;
+    text-align: center; }
+
+    .Dashboard_Referrals_Header label.error {
+  font-size: 12px;
+  color: red; }
+
+  .Dashboard_Referrals_Header #message {
+  resize: vertical; }
+
+  .Dashboard_Referrals_Header #form-message-warning,.Dashboard_Referrals_Header  #form-message-success {
+  display: none; }
+
+  .Dashboard_Referrals_Header #form-message-warning {
+  color: #B90B0B; }
+
+  .Dashboard_Referrals_Header #form-message-success {
+  color: #55A44E;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center; }
+
+  .Dashboard_Referrals_Header .submitting {
+  text-align: center;
+  float: left;
+  width: 100%;
+  padding: 10px 0;
+  display: none;
+  font-weight: bold;
+  font-size: 12px;
+  color: #000; }
