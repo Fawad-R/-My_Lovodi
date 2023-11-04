@@ -1,0 +1,30 @@
+.Dashboard_Home
+{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid red; */
+    width: 80%;
+    margin: auto;
+    padding: 1%;
+    justify-content: center;
+    font-size: 12px;
+
+}
+.Dashboard_Home0{
+    background-color: #F1F1F2;
+    margin: 0%;
+    padding: 0%;
+}
+.Dashboard_Home_Main_Cards{
+    /* border: 2px solid red; */
+    /* width: 80%; */
+    margin: 1%;
+    text-align: center;
+}
+.Dashboard_Home_Main_Cards_2
+{
+    /* border: 2px solid red; */
+    text-align: center;
+    margin:2% auto;
+    width: 500px;
+}

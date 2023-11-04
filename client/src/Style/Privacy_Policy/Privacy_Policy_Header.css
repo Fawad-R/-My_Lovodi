@@ -1,0 +1,64 @@
+.privacy-options {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .privacy-options h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .privacy-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  .privacy-option span {
+    /* flex: 1; */
+    font-weight: bold;
+    margin-right: 10px; /* Space between label and input */
+  }
+  
+  .privacy-option input {
+    flex: 3;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 100%;
+    outline: none;
+  }
+  
+  .privacy-option button {
+    /* flex: 1; */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width:60px;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    margin-left: 20px; /* Space between the input field and the button */
+  }
+  
+  .privacy-option button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styling for specific elements can be added as needed */
+  

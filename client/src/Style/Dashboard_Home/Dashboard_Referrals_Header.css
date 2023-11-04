@@ -1,0 +1,68 @@
+/* Dashboard_Referrals_Header.css */
+
+.Dashboard_Referrals_Header  {
+  background-color: #f2f2f2;
+}
+.Dashboard_Referrals_Header .referral-form-container {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.Dashboard_Referrals_Header h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.Dashboard_Referrals_Header label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.Dashboard_Referrals_Header input[type="text"],
+.Dashboard_Referrals_Header input[type="email"],
+.Dashboard_Referrals_Header input[type="tel"],
+.Dashboard_Referrals_Header textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.Dashboard_Referrals_Header textarea {
+  height: 100px;
+}
+
+.Dashboard_Referrals_Header button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.Dashboard_Referrals_Header button:hover {
+  background-color: #0056b3;
+}
+
+/* Media Query for responsiveness */
+@media (max-width: 600px) {
+  .Dashboard_Referrals_Header .referral-form-container {
+    max-width: 90%;
+  }
+}

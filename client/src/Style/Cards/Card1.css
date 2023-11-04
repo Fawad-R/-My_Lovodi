@@ -1,0 +1,251 @@
+/* Card.css */
+
+.Card1 .card-container {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 20px;
+  /* width: 900px; */
+  width: 85%;
+  /* height: 260px; */
+  /* max-width: 800px; */
+  overflow: hidden;
+  background: #fff;
+}
+
+/* .Card1 .image-slider {
+    flex: 1;
+  } */
+
+
+.Card1 .card-details {
+  flex: 1;
+  padding: 20px;
+}
+
+.Card1 .card-details h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.Card1 .card-details p {
+  margin: 8px 0;
+}
+
+.Card1 button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.Card1 button:hover {
+  background-color: #0056b3;
+}
+
+.Card1 img {
+  /* width: 30px; */
+  height: 230px;
+  /* background-position: center; */
+}
+
+.Card1 .image-slider {
+  /* border: 2px solid; */
+  width: 210px;
+  /* height: 280px; */
+}
+
+.Card1 h4 {
+  margin: 0%;
+  padding: 0%;
+  /* border: 2px dashed; */
+}
+
+.Card1 button {
+  height: 35px;
+  margin: 1%;
+  font-size: 12px;
+  background-color: white;
+  color: black;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  /* Add box shadow to buttons */
+  text-align: center;
+}
+
+.Card1 button.whatsapp:hover {
+  background-color: #25d366;
+  color: white;
+}
+
+/* Blue background for the other buttons */
+.Card1 button:not(.whatsapp):hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* **************** */
+.Card1 .profile-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  /* Center text content within the container */
+  /* border: 2px solid; */
+  margin: auto;
+}
+
+/* Style for the text "Like this profile?" */
+.Card1 .profile-container p {
+  font-style: italic;
+  font-size: 16px;
+  /* Adjust the font size as needed */
+  color: #333;
+  /* Change the color to your preference */
+  margin: 0;
+  /* Remove default margins to control spacing */
+}
+
+.Card1 .icon-container {
+  display: flex;
+  flex-direction: column;
+  /* Display the items in a column layout */
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  /* padding: 20px;  */
+  width: 100%;
+  border-radius: 10px;
+  /* Add rounded corners for a card-like appearance */
+}
+
+.Card1 .icon-container:hover {
+  transform: scale(1.1);
+  /* Scale the container on hover */
+  /* background-color: #f0f0f0; */
+  /* border: 2px solid; */
+}
+
+/* Style for the CheckCircleOutlineIcon */
+.Card1 .icon-container .CheckCircleOutlineIcon {
+  /* Add specific styles for the icon, like color, size, etc. */
+  color: #007bff;
+  /* Change the color to your preference */
+  font-size: 24px;
+  /* Adjust the size as needed */
+  margin-right: 10px;
+  /* Add spacing between the icon and text */
+}
+
+/* Style for the text "Connect Now" */
+.Card1 .icon-container p {
+  /* Add specific styles for the text, like font size, color, etc. */
+  font-size: 16px;
+  /* Adjust the size as needed */
+  color: #333;
+  /* Change the color to your preference */
+  margin: 0;
+  /* Remove default margins to control spacing */
+}
+
+.Card1:hover {
+
+  /* box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.2); 
+    transform: scale(1.05);  */
+  position: relative;
+  z-index: 1;
+  transform: scale(1.02);
+  /* Adjust the scale factor as needed */
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Card1 .card-details1 {
+  display: flex;
+  margin: 0%;
+}
+
+.Card1 .card-details2 {
+  border-right: 1px solid;
+  margin-right: 14px;
+}
+
+.Card1 .card-details3 {
+  display: flex;
+  margin: 0%;
+  justify-content: space-between;
+}
+.Card1 .card-details3_Left_2{
+  padding-right: 20px; margin-right: 5px;
+}
+.Card1 .card-details1_Right{
+  display: flex; flex-direction: column; align-content: center; align-items:center;
+}
+.Card1 .card-details1_Right .buttons{
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .Card1 .card-container {
+    flex-direction: column;
+  }
+
+  .Card1 .image-slider {
+    width: 100%; /* Full width for images on smaller screens */
+  }
+
+  .Card1 .card-details {
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  .Card1 h4 {
+    font-size: 18px; /* Adjust font size for smaller screens */
+  }
+
+  .Card1 button {
+    padding: 8px 16px; /* Adjust button padding for smaller screens */
+  }
+
+  .Card1 .profile-container p {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .Card1 .icon-container .CheckCircleOutlineIcon {
+    font-size: 20px; /* Adjust icon size for smaller screens */
+  }
+
+  .Card1 .icon-container p {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+}
+@media (max-width: 768px) {
+  .Card1 .card-container {
+    flex-direction: column;
+  }
+
+  .Card1 .image-slider {
+    max-width: 100%;
+  }
+
+  .Card1 .image-slider img {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 768px) {
+  .card-details1 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .card-details2 {
+    margin-right: 0;
+  }
+  .card-details1_Right {
+    margin-top: 20px;
+  }
+}

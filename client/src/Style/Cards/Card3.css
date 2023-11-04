@@ -1,0 +1,68 @@
+/* CardCarousel.css */
+
+.Card3 .card-carousel {
+    /* max-width: 800px;  */
+    width: 900px; 
+    /* Adjust as needed */
+    /* margin: 0 auto; */
+    padding: 20px;
+  }
+  
+  .Card3 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+  }
+  
+  .Card3 .card img {
+    max-width: 100%;
+  }
+  
+  .Card3 .card-details {
+    text-align: center;
+  }
+  
+  .Card3 button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 120px;
+    display: inline;
+  }
+  
+  .Card3 button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .Card3 .card-carousel {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+  overflow: hidden; /* Hide the overflow to avoid horizontal scrolling */
+  justify-content: flex-start; /* Align cards to the start of the container */
+  /* border: 2px solid; */
+}
+
+.Card3 .card {
+  /* border: 2px solid orange; */
+  width: 12rem;
+  margin-right: 1rem; /* Add some spacing between cards */
+}
+/* .card_in_card3
+{
+  position: relative;
+    z-index: 1;
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} */

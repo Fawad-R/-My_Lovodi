@@ -1,0 +1,123 @@
+/* .Testimonial_Header body { */
+    /* background: aliceblue; */
+  /* } */
+  .Testimonial_Header h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #333333;
+    margin-bottom: 50px;
+  }
+  
+  .Testimonial_Header .owl-stage-outer {
+    padding: 30px 0;
+  }
+  .Testimonial_Header .owl-nav {
+    display: none;
+  }
+  .Testimonial_Header span {
+    position: relative;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    /* display: block; */
+    background: #fff;
+    border: 2px solid #01b0f8;
+    margin: 0 5px;
+  }
+  .Testimonial_Header span {
+    background: #01b0f8;
+    box-shadow: none;
+    height: 12px;
+    width: 12px;
+    margin-bottom: -1px;
+  }
+  .Testimonial_Header .active {
+    box-shadow: none;
+
+    
+  }
+  .Testimonial_Header .owl-dots {
+    text-align: center;
+
+ 
+
+  }
+  .Testimonial_Header .card-img-top {
+    max-width: 100px;
+    border-radius: 50%;
+    margin: 15px auto 0;
+    box-shadow: 0 8px 20px -4px #95abbb;
+    width: 100px;
+    height: 100px;
+  }
+  .Testimonial_Header span {
+    font-size: 18px;
+    color: #666666;
+  }
+  .Testimonial_Header h5 {
+    color: #01b0f8;
+    font-size: 21px;
+    line-height: 1.3;
+
+  }
+  
+  .Testimonial_Header p {
+    font-size: 18px;
+    color: #555;
+    padding-bottom: 15px;
+  }
+  .Testimonial_Header .card {
+    background: #fff;
+    box-shadow: 0 8px 30px -7px #c9dff0;
+    margin: 0 20px;
+    padding: 0 10px;
+    border-radius: 20px;
+    border: 0;
+
+  }
+  .Testimonial_Header .active {
+    opacity: 0.5;
+    transition: all 0.3s;
+  }
+  .Testimonial_Header span {
+    font-size: 20px;
+  }  
+  .Testimonial_Header h5 {
+    font-size: 24px;
+
+  }
+  .Testimonial_Header .card-img-top {
+    /* max-width: 100%; */
+    height: 120px;
+    width: 120px;
+  }
+  .Testimonial_Header .center {
+    opacity: 1;
+
+ 
+  }
+
+  .Testimonial_Header .gtco-testimonials {
+    position: relative;
+    margin-top: 30px;  
+  
+   }
+  
+  @media (max-width: 767px) {
+    .Testimonial_Header .gtco-testimonials {
+      margin-top: 20px;
+    }
+  }
+  .Testimonial_Header .owl-nav button {
+    &.owl-next, &.owl-prev {
+      outline: 0;
+    }
+  }
+  .Testimonial_Header button.owl-dot {
+    outline: 0;
+  }
+  /* .Testimonial_Header .owl-carousel {
+    
+  
+   
+  } */

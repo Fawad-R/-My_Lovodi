@@ -1,0 +1,17 @@
+  .Matches_Nav .navbar {
+    background-color: #ff4d4d; 
+    color: white; 
+  }
+  .Matches_Nav .nav-link.active {
+    /* background-color: #ff4d4d;  */
+    background-color: #ff6666;
+    color: white; 
+    border-radius: 4px;
+  }
+  
+  .Matches_Nav .nav-link:hover {
+    /* background-color: #ff6666;  */
+    background-color: #ff8888;
+    color: white; 
+    transition: background-color 0.3s, color 0.3s;
+  }

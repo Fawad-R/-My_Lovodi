@@ -1,0 +1,61 @@
+.MyPhotos_Display .container {
+    text-align: center;
+    background-color: #ff2d55; /* Love color */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #fff; /* White text color */
+    border-radius: 10px;
+    /* width: 800px; */
+     /* Adjust the width as needed */
+    margin: 3% auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  .MyPhotos_Display h1 {
+    font-size: 18px; /* Smaller font size */
+    margin-bottom: 10px;
+  }
+  
+  .MyPhotos_Display .image-container {
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: stretch; */
+    /* border: 2px solid; */
+    width: 90%;
+    margin: auto;
+    /* margin-bottom: 10px; */
+  }
+  
+  .MyPhotos_Display .image {
+    max-width: 120px; /* Adjust the image size as needed */
+    padding: 5px;
+  }
+  
+  .MyPhotos_Display select {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px; /* Smaller font size */
+    background-color: #ff2d55; /* Love color */
+    color: #fff; /* White text color */
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+  .MyPhotos_Display select:hover {
+    background-color: #ff0033; /* A deeper shade of love color */
+  }
+  
+  .MyPhotos_Display button {
+    background-color: #ff2d55; /* Love color */
+    color: #fff; /* White text color */
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px; /* Smaller font size */
+  }
+  
+  .MyPhotos_Display button:hover {
+    background-color: #ff0033; /* A deeper shade of love color */
+  }
+  

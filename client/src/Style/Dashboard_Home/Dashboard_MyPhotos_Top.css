@@ -1,0 +1,36 @@
+/* MyPhotosTop.css */
+.Dashboard_MyPhotos_Top .photo-upload {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .Dashboard_MyPhotos_Top .upload-instructions {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .Dashboard_MyPhotos_Top .upload-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF; /* You can choose your preferred color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+  }
+  
+  .Dashboard_MyPhotos_Top .upload-button:hover {
+    background-color: #0056b3; /* Change the color on hover */
+  }
+  
+  .Dashboard_MyPhotos_Top .upload-button input[type="file"] {
+    display: none;
+  }
+  
+  .Dashboard_MyPhotos_Top .upload-message {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #FF4500; /* Red color for error messages */
+  }
+  

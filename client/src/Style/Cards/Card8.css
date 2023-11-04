@@ -1,0 +1,62 @@
+/* CardCarousel.css */
+
+.Card8 .card-carousel {
+    /* max-width: 800px;  */
+    width: 90%; 
+    /* Adjust as needed */
+    /* margin: 0 auto; */
+    /* border: 12px solid; */
+    padding: 20px;
+    margin: auto;
+  }
+  
+  .Card8 .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+  }
+  
+  .Card8 .card img {
+    max-width: 100%;
+  }
+  
+  .Card8 .card-details {
+    text-align: center;
+  }
+  
+  .Card8 button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 120px;
+    display: inline;
+  }
+  
+  .Card8 button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  .Card8 .card-carousel {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent items from wrapping to the next line */
+  overflow: hidden; /* Hide the overflow to avoid horizontal scrolling */
+  justify-content: flex-start; /* Align cards to the start of the container */
+  /* border: 2px solid; */
+}
+
+.Card8 .card {
+  /* border: 2px solid orange; */
+  width: 12rem;
+  margin-right: 1rem; /* Add some spacing between cards */
+}

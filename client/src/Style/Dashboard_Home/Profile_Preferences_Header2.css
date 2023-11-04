@@ -1,0 +1,53 @@
+.Profile_Preferences_Header2 .partner-preferences {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Profile_Preferences_Header2 .partner-preferences h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .Profile_Preferences_Header2 .preference-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+  }
+  
+  .Profile_Preferences_Header2 .preference-item:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.01);
+  }
+  
+  .Profile_Preferences_Header2 .preference-item span {
+    flex: 1;
+    font-weight: bold;
+    margin-right: 15px; /* Space between label and value */
+    color: #333; /* Dark text color */
+  }
+  
+  .Profile_Preferences_Header2 .preference-item i.edit-icon {
+    color: #007bff;
+    cursor: pointer;
+    transition: color 0.2s;
+  }
+  
+  .Profile_Preferences_Header2 .preference-item i.edit-icon:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+  

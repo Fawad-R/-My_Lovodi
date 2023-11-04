@@ -1,0 +1,85 @@
+/* Card.css */
+
+.Card4 .card-container {
+    display: flex;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    width: 700px;
+    height: 260px;
+    /* max-width: 800px; */
+    overflow: hidden;
+    background: #fff;
+  }
+  
+  /* .Card4 .image-slider {
+    flex: 1;
+  } */
+  
+  
+  .Card4 .card-details {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .Card4 .card-details h2 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .Card4 .card-details p {
+    margin: 8px 0;
+  }
+  
+  .Card4 button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .Card4 button:hover {
+    background-color: #0056b3;
+  }
+  .Card4 img {
+    /* width: 30px; */
+    height: 230px;
+    /* background-position: center; */
+  }
+  .Card4 .image-slider
+  {
+    /* border: 2px solid; */
+    width: 210px;
+    /* height: 280px; */
+  }
+  .Card4 h4
+  {
+    margin: 0%;    
+    padding: 0%;    
+    /* border: 2px dashed; */
+  }
+  .Card4 button
+  {
+    height:35px;    
+    margin: 1%;    
+    font-size: 12px;
+    background-color:white;
+    color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add box shadow to buttons */
+    text-align: center;
+   }
+   .Card4 button.whatsapp:hover {
+    background-color: #25d366;
+    color:white;
+  }
+  
+  /* Blue background for the other buttons */
+  .Card4 button:not(.whatsapp):hover {
+    background-color: #007bff;
+    color:white;
+  }
+  

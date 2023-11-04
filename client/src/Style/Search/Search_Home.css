@@ -1,0 +1,86 @@
+/* Search_Home.css */
+
+.Search_Header {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+.Search_Header .App {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.Search_Header h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.Search_Header .search-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.Search_Header .input-group {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.Search_Header label {
+  font-weight: bold;
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.Search_Header input[type="text"],
+.Search_Header input[type="number"],
+.Search_Header select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  font-size: 16px;
+}
+
+.Search_Header select {
+  background-color: white;
+  cursor: pointer;
+}
+
+.Search_Header button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  font-size: 16px;
+}
+
+.Search_Header button:hover {
+  background-color: #0056b3;
+}
+.Search_Header input
+{
+  background-color: white;
+}
+/* Responsiveness */
+@media (max-width: 768px) {
+  .Search_Header .input-group {
+    flex-basis: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 576px) {
+  .Search_Header .input-group {
+    flex-basis: 100%;
+  }
+}

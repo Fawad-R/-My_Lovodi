@@ -1,0 +1,30 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+} */
+.Dashboard_Card_Main1
+{
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap:wrap ;
+    /* border: 2px solid; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.Dashboard_Card_Main1 .card .card-body
+{
+    /* border: 2px solid red; */
+    padding: 0%;
+    margin: 0%;
+}
+.Dashboard_Card_Main1 .card .card-body p,.Dashboard_Card_Main1 .card .card-body h5
+{
+    /* border: 2px solid red; */
+    padding: 0%;
+    margin: 0%;
+}
