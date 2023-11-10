@@ -120,7 +120,7 @@ const Profile_Single_Header = () => {
                         </div>
                         <div className="col-xl-5 col-lg-6">
                             <div className="profile-main-content">
-                                <ul className="top-menu">
+                                {/* <ul className="top-menu">
                                     <li>
                                         <a href="single-profile.html">
                                             Activity
@@ -149,7 +149,7 @@ const Profile_Single_Header = () => {
                                             <div className="num">47</div>
                                         </a>
                                     </li>
-                                </ul>
+                                </ul> */}
                                 <div className="info-box">
                                     <div className="header">
                                         <h4 className="title">

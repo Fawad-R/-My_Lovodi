@@ -3,8 +3,11 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../Style/Cards/Card3.css'; // Create a CSS file for styling
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'; // Import arrow icons
+import { useNavigate } from 'react-router-dom';
 
 const Card3 = () => {
+  let navigate=useNavigate()
+
   const cardData = [
     {
       name: 'Faisal K',
@@ -84,7 +87,7 @@ const Card3 = () => {
 
       const slideItems = cardData.slice(slideStartIndex, slideEndIndex).map((item, index) => (
         <div key={index} >
-        <div key={index} className="card Card1">
+        <div onClick={()=>navigate('/singleprofile')} style={{cursor:'pointer'}} key={index} className="card Card1">
           {/* <div className="card" style={{ width: "12rem" }}> */}
             <div style={{ margin: "auto" }}>
               <img src="img/fawad.png" style={{ height: "100px", width: '100px', borderRadius: '200%' }} className="card-img-top" alt="..." />

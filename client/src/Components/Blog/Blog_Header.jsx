@@ -18,7 +18,7 @@ const Blog_Header = () => {
                                                 <div className="avatar">
                                                     <img src="assets/images/blog/author-avarat.png" alt=""/>
                                                 </div>
-                                                <ul className="meta-list">
+                                                {/* <ul className="meta-list">
                                                     <li>
                                                         <a href="#">
                                                             <i className="far fa-comments"></i>
@@ -31,7 +31,7 @@ const Blog_Header = () => {
                                                         </a>
                                                         <span>22</span>
                                                     </li>
-                                                </ul>
+                                                </ul> */}
                                             </div>
                                             <div className="right">
                                                 <p className="date">
@@ -42,7 +42,7 @@ const Blog_Header = () => {
                                                     Date Online
                                                 </h4>
                                                 <p className="text">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua.Quis ipsum suspendisse ultrices gravida. Risus do viverra maecenas
+                                                For in free time, when we have the option of choosing nothing hinders as little as possible what pleases him most
                                                 </p>
                                             </div>
                                         </div>
@@ -68,7 +68,7 @@ const Blog_Header = () => {
                                                 <div className="avatar">
                                                     <img src="assets/images/blog/author-avarat.png" alt=""/>
                                                 </div>
-                                                <ul className="meta-list">
+                                                {/* <ul className="meta-list">
                                                     <li>
                                                         <a href="#">
                                                             <i className="far fa-comments"></i>
@@ -81,7 +81,7 @@ const Blog_Header = () => {
                                                         </a>
                                                         <span>22</span>
                                                     </li>
-                                                </ul>
+                                                </ul> */}
                                             </div>
                                             <div className="right">
                                                 <p className="date">
@@ -92,7 +92,7 @@ const Blog_Header = () => {
                                                     Online Dating Tips and Techniques
                                                 </h4>
                                                 <p className="text">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua.Quis ipsum suspendisse ultrices gravida. Risus do viverra maecenas
+                                                For in free time, when we have the option of choosing nothin hinders as little as possible what pleases him most
                                                 </p>
                                             </div>
                                         </div>
@@ -118,7 +118,7 @@ const Blog_Header = () => {
                                                 <div className="avatar">
                                                     <img src="assets/images/blog/author-avarat.png" alt=""/>
                                                 </div>
-                                                <ul className="meta-list">
+                                                {/* <ul className="meta-list">
                                                     <li>
                                                         <a href="#">
                                                             <i className="far fa-comments"></i>
@@ -131,7 +131,7 @@ const Blog_Header = () => {
                                                         </a>
                                                         <span>22</span>
                                                     </li>
-                                                </ul>
+                                                </ul> */}
                                             </div>
                                             <div className="right">
                                                 <p className="date">
@@ -142,7 +142,8 @@ const Blog_Header = () => {
                                                     Hero of 21st Century Online Dating
                                                 </h4>
                                                 <p className="text">
-                                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua.Quis ipsum suspendisse ultrices gravida. Risus do viverra maecenas
+                                                For in free time, when we have the option of choosing nothing
+                  hinders as little as possible what pleases him most
                                                 </p>
                                             </div>
                                         </div>
@@ -218,7 +219,7 @@ const Blog_Header = () => {
                                         <button type="submit"><i className="flaticon-loupe"></i>Search</button>
                                 </form>
                             </div>
-                            <div className="widget widget-categories">
+                            {/* <div className="widget widget-categories">
                                 <h5 className="title">categories</h5>
                                 <ul>
                                     <li>
@@ -257,13 +258,13 @@ const Blog_Header = () => {
                                         </a>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> */}
                             <div className="widget widget-post">
-                                <h5 className="title">latest post</h5>
-                                <div className="slider-nav">
+                                {/* <h5 className="title">latest post</h5> */}
+                                {/* <div className="slider-nav">
                                     <span className="flaticon-angle-pointing-to-left widget-prev"></span>
                                     <span className="flaticon-right-arrow-angle widget-next active"></span>
-                                </div>
+                                </div> */}
                                 <div className="widget-slider owl-carousel owl-theme">
                                     <div className="item">
                                         <div className="thumb">
@@ -308,7 +309,7 @@ const Blog_Header = () => {
                                         <button type="submit"><i className="far fa-envelope"></i> Send</button>
                                 </form>
                             </div>
-                            <div className="widget widget-tags">
+                            {/* <div className="widget widget-tags">
                                 <h5 className="title">featured tags</h5>
                                 <ul>
                                     <li>
@@ -327,7 +328,7 @@ const Blog_Header = () => {
                                         <a href="#" className="active">landing</a>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

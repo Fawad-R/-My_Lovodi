@@ -25,6 +25,7 @@ const MyPhotos_Display = () => {
         <select id="displayOption" name="displayOption" value={selectedOption} onChange={handleOptionChange}>
           <option value="visibleToAll">Visible to all Members</option>
           <option value="visibleToMembersILikeAndPremium">Visible to Members I like and to all Premium Members</option>
+          <option value="Only Visible to Members I like">Only Visible to Members I like</option>
         </select>
         <button className='custom-button' type="submit">Save my settings</button>
       </form>

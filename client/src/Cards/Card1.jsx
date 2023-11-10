@@ -8,6 +8,7 @@ import CallIcon from '@mui/icons-material/Call';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import SendIcon from '@mui/icons-material/Send';
 import '../Style/Cards/Card1.css';
+import { useNavigate } from 'react-router-dom';
 
 const Card1 = () => {
     // Define images for the slider
@@ -24,7 +25,7 @@ const Card1 = () => {
     const handleSlideChange = (index) => {
         setSelectedSlide(index);
     };
-
+    let navigate=useNavigate()
     return (
         <>
             <div className="Card1">
@@ -46,7 +47,7 @@ const Card1 = () => {
                     <div className="card-details">
                         <h4>Shakir R</h4>
                         <div className='card-details1'>
-                            <div className='card-details2'>
+                            <div onClick={()=>navigate('/singleprofile')} className='card-details2'>
                                 <div className='card-details3'>
                                     <div style={{}}>
                                         {/* ,borderBottom:'1px solid' */}
@@ -87,11 +88,19 @@ const Card1 = () => {
             <div className="Card1">
                 <div className="card-container">
                     <div className="image-slider">
+                        {/* <Carousel
+                            showStatus={false}
+                            showThumbs={false}
+                            selectedItem={selectedSlide}
+                            onChange={handleSlideChange}
+                        > */}
                         <Carousel
                             showStatus={false}
                             showThumbs={false}
                             selectedItem={selectedSlide}
                             onChange={handleSlideChange}
+                            
+                            
                         >
                             {images.map((image, index) => (
                                 <div key={index}>
@@ -99,12 +108,22 @@ const Card1 = () => {
                                 </div>
                             ))}
                         </Carousel>
+                        <div className="custom-arrows">
+            {/* <button className="custom-arrow left" onClick={() => handleSlideChange(selectedSlide - 1)}> */}
+              {/* You can use any arrow icon or text here */}
+              {/* &lt; */}
+            {/* </button> */}
+            {/* <button className="custom-arrow right" onClick={() => handleSlideChange(selectedSlide + 1)}> */}
+              {/* You can use any arrow icon or text here */}
+              {/* &gt; */}
+            {/* </button> */}
+          </div>
                     </div>
 
                     <div className="card-details">
                         <h4>Shakir R</h4>
                         <div className='card-details1'>
-                            <div className='card-details2' >
+                            <div onClick={()=>navigate('/singleprofile')}  className='card-details2' >
                                 <div className='card-details3' >
                                     <div className='card-details3_Left_1' >
                                         <p style={{ margin: '0%' }}><QuestionAnswerIcon style={{ fontSize: '14px', marginRight: '2px' }} />Online Now</p>

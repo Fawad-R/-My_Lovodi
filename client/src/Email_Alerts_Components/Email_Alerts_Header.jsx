@@ -105,17 +105,17 @@ function Email_Alerts_Header() {
       </div>
 
       {/* Newsletters Section */}
-      <div className="alerts-section">
-        <h3>Shaadi.com Newsletters</h3>
-        <label>
+      {/* <div className="alerts-section"> */}
+        {/* <h3>Shaadi.com Newsletters</h3> */}
+        {/* <label>
           <input
             type="checkbox"
             checked={isSubscribedToShaadiSpecials}
             onChange={toggleShaadiSpecials}
           />
           Shaadi Specials
-        </label>
-        <label>
+        </label> */}
+        {/* <label>
           <input
             type="checkbox"
             checked={isSubscribedToShaadiInSite}
@@ -130,8 +130,8 @@ function Email_Alerts_Header() {
             onChange={toggleShaadiTimes}
           />
           Shaadi Times Newsletters
-        </label>
-      </div>
+        </label> */}
+      {/* </div> */}
 
       {/* Manage Subscriptions Section */}
       <div className="manage-subscriptions">
@@ -141,7 +141,7 @@ function Email_Alerts_Header() {
       </div>
 
       {/* Email Address Section */}
-      <div className="email-address">
+      {/* <div className="email-address">
         <p>
           All your Shaadi.com emails and ShaadiTimes newsletters will be delivered to:
         </p>
@@ -149,7 +149,7 @@ function Email_Alerts_Header() {
         <p>
           Note: This is also the email for logging into your Shaadi.com account.
         </p>
-      </div>
+      </div> */}
     </div>
     </div>
   );

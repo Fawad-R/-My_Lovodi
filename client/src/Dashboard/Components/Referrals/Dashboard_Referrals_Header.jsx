@@ -86,9 +86,9 @@ const Dashboard_Referrals_Header = () => {
           <div className="row">
             <div className="col-md-5 mr-auto">
               <h3 className="mb-3">Let's Reffer your friends</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae sequi, ipsa hic alias officia facilis eveniet, neque laborum cumque maxime soluta. Neque atque necessitatibus ipsam sequi soluta magni, iste vero fuga inventore, explicabo totam quis quia nemo possimus cupiditate doloribus?</p>
-              <p>Quasi optio numquam pariatur amet laudantium, dicta ullam obcaecati nihil eveniet et aperiam beatae illum vitae in asperiores, a ex. Voluptates accusantium, beatae dolorem natus delectus nostrum, iusto nemo optio quas eum, quis a in reprehenderit totam, sequi distinctio impedit.</p>
-              <p>Dolor aliquid, commodi vitae dolorum veniam amet error! Nemo nam quibusdam delectus dolore eveniet officia harum eum sit magnam possimus. Eum optio dolores repellat ea impedit, in unde, rem ipsam rerum autem iusto vero facilis blanditiis explicabo sapiente consequatur provident? <a href="#">info@mywebsite.com</a></p>
+              <p>It is very important for the customer to pay attention to the adipiscing process. Refusal to follow, the other duties here will be easy, neither laborious nor particularly remunerative. Nor is the need to follow her freed from the great, but this is the inventor of the flight, who will explain the whole thing because none of us can overcome the pains of desire?</p>
+              <p>It is as if the choice is never equaled by the multitude of praisers. The pleasures of those who accuse him, our chosen one born of blessed pain, just a choice which no one, who criticizes him from the whole, hinders from following the distinction.</p>
+              <p>Some pain, the benefits of life pains I'll forgive the mistake! For it will happen to some of the elect that we are able to perform these duties with great pain. His choice repels pains and hinders them, in what way, but the very matter of things, but I will explain to the just one with easy flattery, the wise provide for the result? <a href="#">info@mywebsite.com</a></p>
 
             </div>
 

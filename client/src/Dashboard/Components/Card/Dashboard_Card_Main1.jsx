@@ -1,6 +1,8 @@
 import React from 'react'
 import '../../../Style/Dashboard_Home/Dashboard_Card_Main1.css'
+import { useNavigate } from 'react-router-dom'
 const Dashboard_Card_Main1 = () => {
+    let navigate=useNavigate()
     return (
         <div className=''>
             Your Activity Summary
@@ -30,16 +32,16 @@ const Dashboard_Card_Main1 = () => {
                     </div>
             </div>
             
-            <div className="card" style={{"width": "11rem",marginBottom:'5px',padding:'1%',opacity:"30%"}}>
+            <div className="card" onClick={()=>navigate('/myplan')} style={{"width": "11rem",marginBottom:'5px',padding:'1%',opacity:"30%",cursor:'pointer'}}>
                     <div className="card-body">
                         <h5 className="card-title">0</h5>
-                        <p className="card-text">Contacts Viewed</p>
+                        <p className="card-text" >Contacts Viewed</p>
                     </div>
             </div>
-            <div className="card" style={{"width": "11rem",marginBottom:'5px',padding:'1%',opacity:"30%"}}>
+            <div className="card" onClick={()=>navigate('/myplan')} style={{"width": "11rem",marginBottom:'5px',padding:'1%',opacity:"30%",cursor:'pointer'}}>
                     <div className="card-body">
                         <h5 className="card-title">0</h5>
-                        <p className="card-text">Chats Initiated</p>
+                        <p className="card-text"  >Chats Initiated</p>
                     </div>
             </div>
             

@@ -3,8 +3,10 @@ import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import '../Style/Cards/Card8.css'; // Create a CSS file for styling
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'; // Import arrow icons
+import { useNavigate } from 'react-router-dom';
 
 const Card8 = () => {
+  let navigate=useNavigate()
   const cardData = [
     {
       name: 'Faisal K',
@@ -89,7 +91,7 @@ const Card8 = () => {
             <div style={{ margin: "auto" }}>
               <img src="img/fawad.png" style={{ height: "190px", width: '240px' }} className="card-img-top" alt="..." />
             </div>
-            <div className="card-body" style={{ textAlign: 'left' }}>
+            <div className="card-body" style={{ textAlign: 'left',cursor:'pointer' }} onClick={()=>navigate('/singleprofile')} >
               <h5 className="card-title">Muhammad J</h5>
               <p className="card-text">29 yrs, 6' 1", <br /> Urdu, Ellicott City, USA</p>
               <a href="#" className="custom-button">Connect Now</a>

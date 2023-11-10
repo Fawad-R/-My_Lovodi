@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Billing_Header = () => {
+const Purchase_Header = () => {
     return (
         <div>
             <section className="user-setting-section">
@@ -91,13 +91,13 @@ const Billing_Header = () => {
                                         <div className="card-body">
                                             <ul className="links">
                                                 <li>
-                                                    <a className="active" href="/billing">Billing & Payout</a>
+                                                    <a  href="/billing">Billing & Payout</a>
                                                 </li>
                                                 <li>
                                                     <a href="/myplan">Upgrade Membership Plan</a>
                                                 </li>
                                                 <li>
-                                                    <a href="/purchaseHistory">View Purchase History</a>
+                                                    <a className="active" href="/purchaseHistory">View Purchase History</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -107,114 +107,88 @@ const Billing_Header = () => {
                         </div>
                         <div className="col-xl-8 col-md-7 ">
                             <div className="page-title">
-                                Billing & Payout
-                            </div>
-
-                            <div className="input-info-box mt-30">
-                                <div className="header">
-                                    Provide your payment info
-                                </div>
-                                <div className="content">
-                                    <div className="row">
-                                        <div className="col-md-6">
-                                            <div className="my-input-box">
-                                                <label for="">First Name</label>
-                                                <input type="text" placeholder="First Name"/>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-6">
-                                            <div className="my-input-box">
-                                                <label for="">Last Name</label>
-                                                <input type="text" placeholder="Last Name"/>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-6">
-                                            <div className="my-input-box">
-                                                <label for="">Country</label>
-                                                <select name="" id="">
-                                                    <option value="" disabled="" selected="">Select Country</option>
-                                                    <option value="">United State</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-6">
-                                            <div className="my-input-box">
-                                                <label for="">City</label>
-                                                <select name="" id="">
-                                                    <option value="" disabled="" selected="">Select City</option>
-                                                    <option value="">New Work</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-6">
-                                            <div className="my-input-box">
-                                                <label for="">Email</label>
-                                                <input type="text" placeholder="Email"/>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-6">
-                                            <div className="my-input-box">
-                                                <label for="">Phone</label>
-                                                <input type="text" placeholder="Phone"/>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </div>
+                            View purchase history
                             </div>
                             <div className="input-info-box mt-30">
-                                <div className="header">
-                                    Payment Options
-                                </div>
-                                <div className="content">
-                                    <div className="select-payment">
-                                        <div className="option">
-                                            <i className="fas fa-check-circle"></i>
-                                            <img src="assets/images/card1.png" alt=""/>
-                                                Credit Card
-                                        </div>
-                                        <div className="option">
-                                            <i className="fas fa-check-circle"></i>
-                                            <img src="assets/images/card1.png" alt=""/>
-                                                Debit Card
-                                        </div>
-                                        <div className="option">
-                                            <i className="fas fa-check-circle"></i>
-                                            <img src="assets/images/card2.png" alt=""/>
-                                                Paypal
+                        <div className="my-table">
+                            <div className="table-filter">
+                                <div className="row">
+                                    <div className="col-md-4">
+                                        <div className="my-input-box">
+                                            <label for="">Form Date</label>
+                                            <input type="date"/>
                                         </div>
                                     </div>
-                                    <div className="header">
-                                        Enter your Card Details
+                                    <div className="col-md-4">
+                                        <div className="my-input-box">
+                                            <label for="">Form Date</label>
+                                            <input type="date"/>
+                                        </div>
                                     </div>
-                                    <div className="row">
-                                        <div className="col-md-12">
-                                            <div className="my-input-box">
-                                                <label for="">Card Number</label>
-                                                <input type="email" placeholder="0000 0000 0000 0000"/>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-12">
-                                            <div className="my-input-box">
-                                                <label for="">Name</label>
-                                                <input type="text" placeholder="Name"/>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-6">
-                                            <div className="my-input-box">
-                                                <label for="">Expiration</label>
-                                                <input type="text" placeholder="MM/YY"/>
-                                            </div>
-                                        </div>
-                                        <div className="col-md-6">
-                                            <div className="my-input-box">
-                                                <label for="">CVV</label>
-                                                <input type="text" placeholder="CVV"/>
-                                            </div>
-                                        </div>
+                                    <div className="col-md-4">
+                                        <button className="custom-button"><i className="fas fa-search"></i></button>
                                     </div>
                                 </div>
                             </div>
+                            <div className="table-responsive">
+                                <table className="table">
+                                  <thead>
+                                      <tr>
+                                          <th>DATE</th>
+                                          <th>ITEM</th>
+                                          <th>TYPE</th>
+                                          <th>CODE</th>
+                                          <th>PRICE</th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                      <tr>
+                                          <td className="gray">Nov 15th, 2021</td>
+                                          <td className="green">Subscriptions Plan</td>
+                                          <td className="dark">Purchase</td>
+                                          <td className="gray">VK1287</td>
+                                          <td className="dark">$34</td>
+                                      </tr>
+                                      <tr>
+                                          <td className="gray">Nov 15th, 2021</td>
+                                          <td className="green">Subscriptions Plan</td>
+                                          <td className="dark">Purchase</td>
+                                          <td className="gray">VK1287</td>
+                                          <td className="dark">$34</td>
+                                      </tr>
+                                      <tr>
+                                          <td className="gray">Nov 15th, 2021</td>
+                                          <td className="green">Subscriptions Plan</td>
+                                          <td className="dark">Purchase</td>
+                                          <td className="gray">VK1287</td>
+                                          <td className="dark">$34</td>
+                                      </tr>
+                                      <tr>
+                                          <td className="gray">Nov 15th, 2021</td>
+                                          <td className="green">Subscriptions Plan</td>
+                                          <td className="dark">Purchase</td>
+                                          <td className="gray">VK1287</td>
+                                          <td className="dark">$34</td>
+                                      </tr>
+                                      <tr>
+                                          <td className="gray">Nov 15th, 2021</td>
+                                          <td className="green">Subscriptions Plan</td>
+                                          <td className="dark">Purchase</td>
+                                          <td className="gray">VK1287</td>
+                                          <td className="dark">$34</td>
+                                      </tr>
+                                      <tr>
+                                          <td className="gray">Nov 15th, 2021</td>
+                                          <td className="green">Subscriptions Plan</td>
+                                          <td className="dark">Purchase</td>
+                                          <td className="gray">VK1287</td>
+                                          <td className="dark">$34</td>
+                                      </tr>
+                                  </tbody>
+                                </table>
+                              </div>
+                        </div>
+                    </div>
                             <div className="buttons  mt-30">
                                 <button type="submit" className="custom-button">Submit</button>
                             </div>
@@ -227,4 +201,4 @@ const Billing_Header = () => {
     )
 }
 
-export default Billing_Header
+export default Purchase_Header

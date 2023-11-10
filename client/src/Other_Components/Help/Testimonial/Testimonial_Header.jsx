@@ -22,8 +22,8 @@ const Testimonial_Header = () => {
                   <span> Project Manager </span>
                 </h5>
                 <p className="card-text">
-                  “ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-                  impedit quo minus id quod maxime placeat ”
+                  “ For in free time, when we have the option of choosing nothing
+                  hinders as little as possible what pleases him most ”
                 </p>
               </div>
             </div>
@@ -41,8 +41,8 @@ const Testimonial_Header = () => {
                   <span> Engineer </span>
                 </h5>
                 <p className="card-text">
-                  “ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-                  impedit quo minus id quod maxime placeat ”
+                  “ For in free time, when we have the option of choosing nothing
+                  hinders as little as possible what pleases him most ”
                 </p>
               </div>
             </div>

@@ -24,20 +24,20 @@ const Contact_Header = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="row">
+                            <div  className="row">
                                 <div className="col-lg-7">
                                     <div className="contact-form-wrapper">
                                         <div className="single-input">
                                             <i className="far fa-user"></i>
-                                            <input type="text" placeholder="Full Name"/>
+                                            <input style={{color:'black'}} type="text" placeholder="Full Name"/>
                                         </div>
                                         <div className="single-input">
                                             <i className="far fa-envelope"></i>
-                                            <input type="text" placeholder="Enter Your Email ID"/>
+                                            <input style={{color:'black'}} type="text" placeholder="Enter Your Email ID"/>
                                         </div>
                                         <div className="single-input">
                                             <i className="far fa-comments"></i>
-                                            <textarea placeholder="Type Your Text"></textarea>
+                                            <textarea style={{color:'black'}} placeholder="Type Your Text"></textarea>
                                         </div>
                                         <a href="#" className="custom-button">Submit</a>
                                     </div>

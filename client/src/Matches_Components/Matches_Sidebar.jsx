@@ -69,15 +69,15 @@ const Matches_Sidebar = () => {
                         <div className="section-heading card-header">Annual Income</div>
                         <div className="section">
                             <input type="radio" name="recently-joined" />
-                            <label>INR 4 Lakh to ...(143)</label>
+                            <label>USD 4 k to ...(143)</label>
                         </div>
                         <div className="section">
                             <input type="radio" name="recently-joined" />
-                            <label>INR 7 Lakh to ...(143)</label>
+                            <label>USD 7 k to ...(143)</label>
                         </div>
                         <div className="section">
                             <input type="radio" name="recently-joined" />
-                            <label>INR 10 Lakh to ...(143)</label>
+                            <label>USD 10 k to ...(143)</label>
                         </div>
                         <div className="section">
                             <input type="radio" name="recently-joined" />

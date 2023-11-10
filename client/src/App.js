@@ -43,6 +43,7 @@ import Received_Messages from './Inbox_Components/Received_Messages'
 import Deleted_Messages from './Inbox_Components/Deleted_Messages'
 import Sent_Messages from './Inbox_Components/Sent_Messages'
 import Requested_Messages from './Inbox_Components/Requested_Messages'
+import Purchase_Home from './Components/Purchase_Pages/Purchase_Home'
 const App = () => {
   return (
     <Routes>
@@ -73,6 +74,7 @@ const App = () => {
       <Route  path='/notification' element={<Notification_Home/>} />
       <Route  path='/myplan' element={<Membership/>} />
       <Route  path='/billing' element={<Billing_Home/>} />
+      <Route  path='/purchaseHistory' element={<Purchase_Home/>} />
       <Route  path='/allplan' element={<Membership/>} />
       {/* <Route  path='/inbox' element={<Inbox_Home/>} /> */}
       <Route  path='/contactFilter' element={<Contact_Filter/>} />

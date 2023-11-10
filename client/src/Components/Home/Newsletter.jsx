@@ -8,7 +8,7 @@ const Newsletter = () => {
                 <img className="shape2" src="assets/images/footer/flower01.png" alt="" />
                 <img className="shape3" src="assets/images/footer/right-shape.png" alt="" />
                 <div className="newslater-section">
-                    <div className="container">
+                    {/* <div className="container">
                         <div className="row justify-content-center">
                             <div className="col-lg-6 col-md-8">
                                 <div className="newslater-container">
@@ -27,15 +27,15 @@ const Newsletter = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="container">
-                    <div className="footer-links">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <hr className="hr"/>
-                            </div>
+                    <div className="row">
+                        <div className="col-lg-12">
+                            <hr className="hr"/>
                         </div>
+                    </div>
+                    {/* <div className="footer-links">
                         <div className="row">
                             <div className="col-lg-3 col-sm-6">
                                 <div className="link-wrapper one">
@@ -174,13 +174,13 @@ const Newsletter = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="copyright-wrapper">
-                        <div className="row">
+                        {/* <div className="row">
                             <div className="col-lg-12">
                                 <hr className="hr2"/>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="row">
                             <div className="col-lg-6 align-self-center">
                                 <div className="copyr-text">

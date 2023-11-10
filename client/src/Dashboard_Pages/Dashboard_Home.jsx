@@ -8,6 +8,7 @@ import Dashboard_Card_Main2 from '../Dashboard/Components/Card/Dashboard_Card_Ma
 import '../Style/Dashboard_Home/Dashboard_Home.css'
 import Dashboard_Breadcrumb from './Dashboard_Breadcrumb'
 import Card5 from '../Cards/Card5'
+import Card3 from '../Cards/Card3'
 
 const Dashboard_Home = () => {
   const images = [
@@ -31,10 +32,34 @@ const Dashboard_Home = () => {
             <Dashboard_Card_Main1 />
             <div className='Dashboard_Home_Main_Cards_2'>
               <Dashboard_Card_Main2 images={images} />
-              Premium Matches 999+
-              <Card5 />
-              <Card5 />
-              <Card5 />
+              <div style={{ textAlign: 'left' }}>
+                <i>Recent Visitors 999+</i>
+                <Card3 />
+              </div>
+              <div style={{ textAlign: 'left' }}>
+                <i>Invitations 999+</i>
+                <Card3 />
+              </div>
+              <div style={{ display: 'flex', flexWrap: 'wrap', width: '820px' }}>
+                <div style={{ textAlign: 'left',marginRight:'2%' }}>
+                  <p><i>Premium Matches 999+</i></p>
+                  <Card5 />
+                  <Card5 />
+                  <Card5 />
+                </div>
+                <div style={{ textAlign: 'left' }}>
+                  <p><i>New Matches 999+</i></p>
+                  <Card5 />
+                  <Card5 />
+                  <Card5 />
+                </div>
+                <div style={{ textAlign: 'left' }}>
+                  <p><i>Booster Matches 999+</i></p>
+                  <Card5 />
+                  <Card5 />
+                  <Card5 />
+                </div>
+              </div>
             </div>
           </div>
           <div>

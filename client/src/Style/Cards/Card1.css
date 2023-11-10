@@ -173,6 +173,7 @@
 .Card1 .card-details2 {
   border-right: 1px solid;
   margin-right: 14px;
+  cursor: pointer;
 }
 
 .Card1 .card-details3 {
@@ -248,4 +249,49 @@
   .card-details1_Right {
     margin-top: 20px;
   }
+}
+/* ************************* */
+/* Add this CSS to your stylesheet */
+.image-slider {
+  position: relative;
+}
+
+.image-slider .control-prev.control-arrow,
+.image-slider .control-next.control-arrow {
+  display: none; /* Hide default arrows */
+}
+
+.image-slider .carousel-root {
+  overflow: hidden;
+}
+
+.image-slider .carousel {
+  position: relative;
+}
+
+.image-slider .custom-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 14px;
+  color: #000; /* Arrow color */
+  /* background-color: #fff; */
+   /* Arrow background color */
+  border: 1px solid #000; /* Arrow border color */
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.image-slider .custom-arrow.left {
+  left: 10px;
+}
+
+.image-slider .custom-arrow.right {
+  right: 10px;
+}
+
+/* Optional: Style the dots */
+.image-slider .thumbs-wrapper {
+  display: none; /* Hide default dots */
 }

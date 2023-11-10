@@ -8,8 +8,10 @@ import CallIcon from '@mui/icons-material/Call';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import SendIcon from '@mui/icons-material/Send';
 import '../Style/Cards/Card7.css';
+import { useNavigate } from 'react-router-dom';
 
 const Card7 = () => {
+    let navigate=useNavigate()
     // Define images for the slider
     const images = [
         'image1.jpg',
@@ -47,7 +49,7 @@ const Card7 = () => {
                     <div className="card-details">
                         <h4>Shakir R</h4>
                         <div style={{ display: 'flex', margin: '0%' }}>
-                            <div style={{  marginRight: "24px", paddingRight: "24px" }} >
+                            <div onClick={()=>navigate('/singleprofile')}  style={{cursor:'pointer',  marginRight: "24px", paddingRight: "24px" }} >
                                 <div style={{ display: 'flex', margin: '0%', justifyContent: 'space-between' }}>
 
                                     <div style={{}}>

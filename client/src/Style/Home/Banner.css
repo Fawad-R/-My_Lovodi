@@ -1,0 +1,8 @@
+.select-bar2 {
+    /* height: 200px;  */
+    /* Set a fixed height for the dropdown */
+    width: 190px;
+    height: 40px !important;
+    overflow-y: auto; 
+    /* Enable vertical scrolling */
+}

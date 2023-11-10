@@ -84,8 +84,8 @@ const Membership_Plan = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="pricing-plan-wrapper">
-                            <img className="left-img" src="assets/images/membership/left-img.png" alt="" />
-                            <img className="right-img" src="assets/images/membership/right-img.png" alt="" />
+                            {/* <img className="left-img" src="assets/images/membership/left-img.png" alt="" />
+                            <img className="right-img" src="assets/images/membership/right-img.png" alt="" /> */}
                             <div className="row">
                                 <div className="col-lg-3 col-md-6">
                                     <div className="single-plan">
@@ -112,7 +112,7 @@ const Membership_Plan = () => {
                                                 <li style={{ textDecoration: 'line-through'  }}> Priority over Free member</li>
                                             </ul>
                                         </div>
-                                        <a href="#" className="custom-button">Buy Now!</a>
+                                        <a href="#" className="custom-button">Register Now!</a>
                                         <img className="shape" src="assets/images/membership/plan-bg.png" alt="" />
                                     </div>
                                 </div>
@@ -141,7 +141,7 @@ const Membership_Plan = () => {
                                                 <li style={{ textDecoration: 'line-through'  }}>Priority over Free member</li>
                                             </ul>
                                         </div>
-                                        <a href="#" className="custom-button">Buy Now!</a>
+                                        <a href="#" className="custom-button">Register Now!</a>
                                         <img className="shape" src="assets/images/membership/plan-bg.png" alt="" />
                                     </div>
                                 </div>
